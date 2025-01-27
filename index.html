@@ -5,62 +5,107 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Zirui Zhang</title>
-
-	<style>
-        /* Style for the Publications header */
-        h2 {
-            margin-left: 0; /* Ensure no left margin */
-        }
-
-        /* Style for the ordered list */
-        ol.publications-list {
-            margin-left: 0; /* Remove default left margin */
-            padding-left: 2em; /* Add padding to make space for numbers */
-            list-style-position: outside; /* Ensure numbers are outside the padding */
-        }
-
-        /* Optional: Style for list items */
-        ol.publications-list li {
-            margin-bottom: 15px; /* Space between items */
-        }
-    </style>
 </head>
 
+
+
 <body>
-	<img id="profile_pic" src="assets/profile_pic.jpg" alt="Zirui Zhang">
-
-	<h1>Zirui Zhang</h1>
-
-	<h3>
-	<a href="assets/CV.pdf">resume</a>
-	| <a href="https://scholar.google.com/citations?user=Bu4zYGAAAAAJ&hl=en">scholar</a>
-	| <a href="https://github.com/ProjectKIVO">github</a>
-	| <a href="mailto:zhan4192@purdue.edu">email</a>
-	</h3>
-
-	<br>
+	<div style="display: flex;">
+		<div style="text-align:left;">
+			<img id="profile_pic" src="assets/photo.png" alt="Zirui Zhang" style="width:220px;height:220px;">
+		</div>
+		<div style="margin-left:auto; text-align:right;">
+			<h1>Zirui Zhang</h1>
+			<p>Undergraduate in Computer Science <br> Purdue University, West Lafayette</p>
+			<h3>
+				<a href="assets/CV.pdf">Resume</a>
+				| <a href="https://scholar.google.com/citations?user=Bu4zYGAAAAAJ&hl=en">Google Scholar</a>
+				| <a href="https://github.com/ProjectKIVO">Github</a>
+				| <a href="mailto:zhan4192@purdue.edu">Email</a>
+			</h3>
+			<p style="font-size: smaller; margin-top: -10px;">Last Updated: January 2025</p>
+			<br>
+		</div>
+	</div>
 
 	<p>
-	Description goes here.
+		Hello! I am an undergraduate student studying computer science at Purdue University.
+		I aspire to be a research and educator with a focus on interdisciplinary applications of quantum algorithms and their practical usability.
+		My research generally focuses on the intersection between quantum computing, computer graphics, and HCI,
+		with the goal of simplifying novelty for accessibility and usability.
+	</p>
+	<p>
+		I was fortunate enough to work with wonderful advisors and colleagues and contributed to multiple research projects,
+		including optimization algorithms for procedural generation and Rdyberg atom inspired data preprocessing.
+		Furthermore, I am also interested in extended reality (VR/XR/AR) related research alognside procedural geometry.
 	</p>
 
 
 	<h2>Publications</h2>
+	<p style="font-size: smaller; margin-top: -10px;">(* denotes equal contribution)</p>
 
-    <ol class="publications-list">
-        <li>
-            <b>RelBench: A Benchmark for Deep Learning on Relational Databases</b><br>
-            <u>Rishabh Ranjan*</u>, Joshua Robinson*, Weihua Hu*, Kexin Huang*, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan E. Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec<br>
-            <i>Advances in Neural Information Processing Systems (NeurIPS), 2024</i><br>
+	<ol style="padding-left:1em;">
+		<li>
+			<b>XRXL: A System for Immersive Visualization in Large Lectures</b>
+			<br>Kabir Batra, <b>Zirui Zhang</b>, Shuwen Yang, Anima Agrawal, Yiyin Gu, Bedrich Benes, Alejandra Magana, Voicu Popescu<br>
+			<i>2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), 2025</i><br>
 
-            <a href="assets/2024/relbench/paper.pdf">paper</a>
-            | <a href="https://arxiv.org/abs/2407.20060">arxiv</a>
-            | <a href="https://github.com/snap-stanford/relbench">code</a>
-            | <a href="https://relbench.stanford.edu">website</a>
-            | <a href="assets/2024/relbench/cite.txt">cite</a>
-        </li>
-        (* denotes equal contribution)
-    </ol>
+			<a href="assets/papers/ivll/ivll.pdf">Download</a>
+			| <a"">Citation</a>
+		</li>
+
+		<li>
+			<b>Complex VEs on All-In-One VR Headsets Through Continuous From-Segment Visibility Computation</b>
+			<br>Voicu Popescu, Elisha Sacks, <b>Zirui Zhang</b>, Jorge Vazquez<br>
+			<i>2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), 2025</i><br>
+
+			<a href="assets/papers/visibility/1DVis.pdf">Download</a>
+			| <a"">Citation</a>
+		</li>
+
+		<li>
+			<b>Towards Quantum AdaBoost Weight Initialization</b>
+			<br><b>Zirui Zhang</b>, Kevin Zhang, Pravin Mahendran, David E. Bernal Neira<br>
+
+			<a"">Download</a>
+			| <a"">Citation</a>
+		</li>
+
+		<li>
+			<b>Maximum Independent Set Inspired Dataset Reductions with Neutral Atom Quantum Computers</b>
+			<br><b>Zirui Zhang</b>, Pravin Mahendran, Kevin Zhang, David E. Bernal Neira<br>
+
+			<a"">Download</a>
+			| <a"">Citation</a>
+		</li>
+
+		<li>
+			<b>Towards Wave Function Collapse using Optimization with Quantum Algorithms</b>
+			<br><b>Zirui Zhang</b>, Shannon Cheng, Kevin Xiao, Priyam Gupta, Sean Ruda<br>
+			<i>SA '24: SIGGRAPH Asia 2024 Technical Communications, 2024</i><br>
+
+			<a href="assets/papers/tqwfc/tqwfc.pdf">Download</a>
+			| <a href="https://doi.org/10.1145/3681758.3698015">Citation</a>
+		</li>
+
+		<li>
+			<b>Quantum Game Club: Engaging with Quantum Computing Through Interactive Learning</b>
+			<br>Dongyang Li*, Priyam Gupta, Yi Lin Yang, Eric Christopher Broyles, Lakshay Goel, <b>Zirui Zhang</b>, C. Robert Kenley<br>
+			<i>2024 IEEE International Conference on Quantum Computing and Engineering (QCE), 2024</i><br>
+
+			<a href="assets/papers/qwf/qwf.pdf">Download</a>
+			| <a href="https://doi.org/10.1109/QCE60285.2024.20456">Citation</a>
+		</li>
+
+		<li>
+			<b>Quantum Game Club: Engaging with Quantum Computing Through Interactive Learning</b>
+			<br>Dongyang Li*, <b>Zirui Zhang*</b>, Xinzhe Xu*, Mahdi Hosseini<br>
+			<i>2024 IEEE International Conference on Quantum Computing and Engineering (QCE), 2024</i><br>
+
+			<a href="assets/papers/qgc/qgc.pdf">Download</a>
+			| <a href="https://doi.org/10.1109/QCE60285.2024.20470">Citation</a>
+		</li>
+	</ol>
 
 
 	<footer>
