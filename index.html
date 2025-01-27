@@ -5,6 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Zirui Zhang</title>
+
+	<style>
+        /* Style for the Publications header */
+        h2 {
+            margin-left: 0; /* Ensure no left margin */
+        }
+
+        /* Style for the ordered list */
+        ol.publications-list {
+            margin-left: 0; /* Remove default left margin */
+            padding-left: 2em; /* Add padding to make space for numbers */
+            list-style-position: outside; /* Ensure numbers are outside the padding */
+        }
+
+        /* Optional: Style for list items */
+        ol.publications-list li {
+            margin-bottom: 15px; /* Space between items */
+        }
+    </style>
 </head>
 
 <body>
@@ -28,21 +47,20 @@
 
 	<h2>Publications</h2>
 
-	<ol style="padding-left: 0; margin-left: 0;">
-		<li>
-			<b>RelBench: A Benchmark for Deep Learning on Relational Databases</b><br>
-			<u>Rishabh Ranjan*</u>, Joshua Robinson*, Weihua Hu*, Kexin Huang*, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan E. Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec<br>
-			<i>Advances in Neural Information Processing Systems (NeurIPS), 2024</i><br>
+    <ol class="publications-list">
+        <li>
+            <b>RelBench: A Benchmark for Deep Learning on Relational Databases</b><br>
+            <u>Rishabh Ranjan*</u>, Joshua Robinson*, Weihua Hu*, Kexin Huang*, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan E. Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec<br>
+            <i>Advances in Neural Information Processing Systems (NeurIPS), 2024</i><br>
 
-			<a href="assets/2024/relbench/paper.pdf">paper</a>
-			| <a href="https://arxiv.org/abs/2407.20060">arxiv</a>
-			| <a href="https://github.com/snap-stanford/relbench">code</a>
-			| <a href="https://relbench.stanford.edu">website</a>
-			| <a href="assets/2024/relbench/cite.txt">cite</a>
-		</li>
-
-		(* denotes equal contribution)
-	</ol>
+            <a href="assets/2024/relbench/paper.pdf">paper</a>
+            | <a href="https://arxiv.org/abs/2407.20060">arxiv</a>
+            | <a href="https://github.com/snap-stanford/relbench">code</a>
+            | <a href="https://relbench.stanford.edu">website</a>
+            | <a href="assets/2024/relbench/cite.txt">cite</a>
+        </li>
+        (* denotes equal contribution)
+    </ol>
 
 
 	<footer>
